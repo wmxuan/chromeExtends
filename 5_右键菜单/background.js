@@ -1,0 +1,24 @@
+chrome.contextMenus.create({
+    title:'搜索豆瓣：%s',//%s表示选中的文字
+    contexts:['selection'],//进党选中文字时才会出现
+    onclick:function(params){
+        //不能使用location.href,是因为location是background页面的
+        chrome.tabs.create({url:'https://www.douban.com/search?q='+encodeURI(params.selectionText)})
+    }
+})
+chrome.contextMenus.create({
+    title:'搜索豆瓣2：%s',//%s表示选中的文字
+    contexts:['selection'],//进党选中文字时才会出现
+    onclick:function(params){
+        //不能使用location.href,是因为location是background页面的
+        chrome.tabs.create({url:'https://www.douban.com/search?q='+encodeURI(params.selectionText)})
+    }
+})
+chrome.contextMenus.create({
+    title:'搜索豆瓣3：%s',//%s表示选中的文字
+    contexts:['selection'],//进党选中文字时才会出现
+    onclick:function(params){
+        //不能使用location.href,是因为location是background页面的
+        chrome.tabs.create({url:'https://www.douban.com/search?q='+encodeURI(params.selectionText)})
+    }
+})

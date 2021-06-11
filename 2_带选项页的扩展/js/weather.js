@@ -1,4 +1,3 @@
-console.log(1111111111111);
 var keyStr='d48687d2a398448ba24c768b91b475a2';
 function httpRequest(url,callback){
     var xml = new XMLHttpRequest();

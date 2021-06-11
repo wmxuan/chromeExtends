@@ -1,0 +1,2 @@
+1.带选项：需要在manifest.json中配置options_page字段，指定点击选项之后打开的html页面
+2.弹出页：需要在manifest.json中browser_action中配置default_popup字段，指定点击扩展，弹出的html页面

@@ -1,4 +1,5 @@
 # 插件---浏览器扩展
+##### [文档](http://chrome.cenchy.com/contextmenus.html)
 ### 什么是插件
     所谓的浏览器插件，其实应该叫做浏览器扩展程序，英文名为chrome extension
     插件是压缩在一起的一组文件，包括html,css,js脚本，图片等文件
